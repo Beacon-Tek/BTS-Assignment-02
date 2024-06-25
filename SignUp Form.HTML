@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <Meta charset="UTF-8">
+    <Meta name="viewport" content="Width=device-width initial-scale=1.0">
+    <title>
+        Students Sign up
+    </title>
+    <style>
+        body{
+            background-color: rgb(53, 25, 80);
+        }
+
+        input{
+            Padding: 5px;
+            border: 2px solid green;
+            font: x-small;
+            width: 350px;
+            margin: 0 auto;
+            display: block;
+            margin-top: 0px
+           
+            
+        }
+        select{
+            Padding: 5px;
+            border: 2px solid green;
+            font: x-small;
+            width: 363px;
+            margin: 0 auto;
+            display: block;
+            margin-top: 0px
+        }
+
+        p{
+            font-size: x-small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: none; 
+            margin-left:43px;
+            margin-right:43px;
+         
+                    
+        }
+
+        #date-of-birth{
+            Margin-top: none;
+        }
+        .form-styling{
+            border-top: 1px solid #fff;
+            background-color: white;
+            Padding: 5px;
+            width: 450px;
+            Margin: 0 auto;
+            display: block;
+        }
+        #form-head{
+            text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+            'Lucida Sans', Arial, sans-serif; 
+            font-style: bold; margin:0 auto; padding:0px; 
+        }
+        .btn{margin: 0 auto; display: block; margin-top: 15px; margin-bottom:15px; border-radius: 2px; background-color: green; 
+            border-color: green; width: 362px; color:white 
+        }
+        .btn:hover{
+            background-color: aqua; color:green;
+        }
+        .img{
+            margin:0 auto; display: block; width:80px; height: 70px; Padding:5px 0 0 0
+        }
+        .img-2{
+            margin:0 auto; display: block; width:150px; height: 30px; Padding:0px
+        }
+        .sign-in-link{
+            text-decoration: none; 
+        }
+        #form-footer{
+            width:400px; margin:0 auto; display:block;font-size:small; text-align:center; color:yellow; margin-bottom:20px;
+        }
+        .radio-styling{
+            display: flex; flex direction: row; align-items: center; text-align: left; font-size: x-small; Margin-top: 10px; padding: 0; Margin-left: 0px; margin-right: 43px; width: 200; 
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <form class="form-styling" action="database.html" method="get">
+        
+
+        <img class="img"; src="C:\Users\USER\Downloads\LOGO pix.jpg" alt="Beacon Technologies LOGO">
+        <img class="img-2"; src="C:\Users\USER\Downloads\LOGO NAME.jpg" alt="Beacon Technologies LOGO">
+
+        <h2 id="form-head">
+            SIGN UP
+        </h2>
+
+        <p>Surname</p>
+        <input type="text" name="Surname" placeholder="input Surname">
+
+        <p>First Name</p>
+        <input type="text" name="First Name" placeholder="input First Name">
+
+        <p>Middle Name</p>
+        <input type="text" name="Middle Name" placeholder="input Middle Name">
+
+        <p>E-mail Address</p>
+        <input type="E-mail" name="E-mail" placeholder="input E-mail Address">
+
+        <p>Phone Number</p>
+        <input type="Phone Number" name="Phone Number" placeholder="input Phone Number">
+
+   
+        <p>Date of Birth</p>
+        <input id="date-of-birth"; type="date" name="Date of Birth" placeholder="Date of Birth">
+
+        <p>IT track</p>
+        <select>
+            <option disabled selected value="">Select tract</option>
+            <option>Frontend Engineering</option>
+            <option>Backend Engineering</option>
+            <option>Cloud Computing</option>
+            <option>DevOps</option>
+            <option>Cyber Security and IT Asurance</option>
+            <option>Data Science</option>
+            <option>UI/UX Engineering</option>
+            <option>Data Analysis</option>
+            <option>Digital Marketing and E-Commerce</option>
+            <option>Infographics</option>
+            <options>AI and Machine Learning</options>
+        </select> 
+
+
+        <p>Password</p>
+        <input type="text" name="Password" placeholder="input Password">
+
+        <p>Confirm Password</p>
+        <input type="text" name="Confirm Password" placeholder="Confirm Password">
+     
+      
+        <input class="btn" type="submit"  name="Register" value="Register">
+    </form>
+
+    <p id="form-footer">Already have an account?<a href="loginform.html" class="sign-in-link"> Sign in </a>instead</p>
+
+</body>
+
+</html>
